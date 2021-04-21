@@ -134,5 +134,9 @@
     "google-imagenet1k-per10": {
         "train": ["<img_path>", "<lbl_path>"],
         "val": ["<img_path>", "<lbl_path>"]
+    },
+    "waste-dataset": {
+        "train": ["/workspace/data/single_label_images/train", "<root_label_train>"],
+        "val": ["/workspace/data/single_label_images/val", "<root_label_val>"]
     }
 }

@@ -23,6 +23,7 @@ from vissl.data.disk_dataset import DiskImageDataset
 from vissl.data.ssl_dataset import GenericSSLDataset
 from vissl.data.synthetic_dataset import SyntheticImageDataset
 from vissl.data.torchvision_dataset import TorchvisionDataset
+from vissl.data.waste_dataset_torch_utils_vissl_dataset import VisslWasteDataset
 from vissl.utils.misc import setup_multiprocessing_method
 
 
@@ -40,6 +41,7 @@ DATASET_SOURCE_MAP = {
     "disk_folder": DiskImageDataset,
     "torchvision_dataset": TorchvisionDataset,
     "synthetic": SyntheticImageDataset,
+    "waste_dataset": VisslWasteDataset,
 }
 
 
